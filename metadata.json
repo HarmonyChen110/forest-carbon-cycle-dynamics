@@ -1,0 +1,5 @@
+{
+  "name": "Forest Carbon Cycle Dynamics",
+  "description": "A system dynamics simulation of forest carbon cycling, integrating climate drivers, physiological processes, and human activity feedback loops based on global datasets.",
+  "requestFramePermissions": []
+}
