@@ -7,6 +7,27 @@
 
 在全球气候变化背景下，准确评估森林生态系统的碳汇功能对于制定气候缓解策略至关重要。本文详细阐述了一款基于系统动力学（System Dynamics）原理的森林碳循环动态模拟系统的设计与实现。该系统采用现代 Web 技术栈（React + TypeScript）构建，集成了数值积分求解器与交互式可视化引擎。通过耦合光合作用、呼吸作用及土壤碳周转过程，系统能够定量模拟不同气候情景（如升温、干旱）对森林碳收支的长期影响。本文将从理论模型、数学表征、核心算法、系统架构及模拟结果五个维度进行深入剖析。
 
+In the context of global climate change, accurately assessing the carbon sink function of forest ecosystems is crucial for developing climate mitigation strategies. This paper details the design and implementation of a Forest Carbon Cycle Dynamic Simulation System based on System Dynamics principles. Built with a modern Web technology stack (React + TypeScript), the system integrates numerical integration solvers with an interactive visualization engine. By coupling photosynthesis, respiration, and soil carbon turnover processes, the system can quantitatively simulate the long-term impacts of different climate scenarios (e.g., warming, drought) on forest carbon budgets. This paper provides an in-depth analysis from five dimensions: theoretical models, mathematical representation, core algorithms, system architecture, and simulation results.
+
+---
+
+## 快速开始 (Quick Start)
+
+### 1. 下载 (Download)
+访问 [Releases 页面](https://github.com/HarmonyChen110/forest-carbon-cycle-dynamics/releases) 下载最新版本的压缩包 (`ForestCarbonSim-Portable.zip`)。
+
+Visit the [Releases page](https://github.com/HarmonyChen110/forest-carbon-cycle-dynamics/releases) to download the latest version of the zip archive (`ForestCarbonSim-Portable.zip`).
+
+### 2. 解压 (Extract)
+将下载的压缩包**完整解压**到一个文件夹中。请确保解压所有文件，不要直接在压缩包内运行。
+
+**Fully extract** the downloaded zip archive into a folder. Please ensure all files are extracted; do not run the application directly from within the zip file.
+
+### 3. 运行 (Run)
+双击文件夹中的 `ForestCarbonSim.exe` 即可启动系统。
+
+Double-click `ForestCarbonSim.exe` in the folder to launch the system.
+
 ---
 
 ## 1. 理论模型与数学表征 (Theoretical Framework)
