@@ -21,11 +21,19 @@
 系统的动态演化由一组常微分方程（ODEs）描述。
 
 **方程 1：植被碳库动力学 ($C_{veg}$)**
-$$ \frac{dC_{veg}}{dt} = NPP(t) - Litter(t) - H(t) $$
+
+$$
+\frac{dC_{veg}}{dt} = NPP(t) - Litter(t) - H(t)
+$$
+
 其中，$NPP = GPP - R_a$ 为净初级生产力，$Litter$ 为凋落物输入，$H$ 为人类干扰造成的碳移除。
 
 **方程 2：土壤碳库动力学 ($C_{soil}$)**
-$$ \frac{dC_{soil}}{dt} = Litter(t) - Rh(t) $$
+
+$$
+\frac{dC_{soil}}{dt} = Litter(t) - Rh(t)
+$$
+
 其中，$R_h$ 为异养呼吸（土壤呼吸），受温度与土壤湿度的非线性调控。
 
 ![模型结构说明](Doc/模型说明.png)
@@ -36,7 +44,9 @@ $$ \frac{dC_{soil}}{dt} = Litter(t) - Rh(t) $$
 #### A. 光合作用 (GPP)
 采用光能利用率 (LUE) 模型的变体，引入环境限制函数：
 
-$$ GPP(t) = \varepsilon_{max} \times APAR_{base} \times f(T_t) \times f(W_t) $$
+$$
+GPP(t) = \varepsilon_{max} \times APAR_{base} \times f(T_t) \times f(W_t)
+$$
 
 *   $\varepsilon_{max}$: 最大光能利用率。
 *   $APAR_{base}$: 基准光合有效辐射。
@@ -46,7 +56,9 @@ $$ GPP(t) = \varepsilon_{max} \times APAR_{base} \times f(T_t) \times f(W_t) $$
 #### B. 呼吸作用 (Ra & Rh)
 生态系统的呼吸作用对温度的变化表现出非线性正反馈，采用经典的 $Q_{10}$ 指数方程：
 
-$$ R(t) = k \cdot C(t) \cdot Q_{10}^{\frac{T(t) - T_{ref}}{10}} \cdot f(W_t) $$
+$$
+R(t) = k \cdot C(t) \cdot Q_{10}^{\frac{T(t) - T_{ref}}{10}} \cdot f(W_t)
+$$
 
 该公式表明，温度每升高 10°C，呼吸速率将增加 $Q_{10}$ 倍。
 
@@ -143,7 +155,11 @@ for (let t = 0; t <= simulationYears; t++) {
 
 ### 3.3 净生态系统碳平衡 (NECB)
 净生态系统碳平衡（NECB）反映了森林是作为“碳汇”还是“碳源”。
-$$ NECB = NEP - Disturbance_{loss} $$
+
+$$
+NECB = NEP - Disturbance_{loss}
+$$
+
 模拟显示，在升温情景下，由于呼吸作用对温度的敏感性（$Q_{10}$ 效应）高于光合作用，森林可能在特定阈值后由碳汇转变为碳源。
 
 ![生态系统净碳平衡](Doc/生态系统净碳平衡.png)
