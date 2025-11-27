@@ -13,6 +13,13 @@ In the context of global climate change, accurately assessing the carbon sink fu
 
 ## 快速开始 (Quick Start)
 
+### 推荐：在线体验 (Recommended: Online Demo)
+无需下载，直接访问网页版即可体验完整功能：
+[https://harmonychen110.github.io/forest-carbon-cycle-dynamics/](https://harmonychen110.github.io/forest-carbon-cycle-dynamics/)
+
+No download required. Experience the full functionality directly in your browser:
+[https://harmonychen110.github.io/forest-carbon-cycle-dynamics/](https://harmonychen110.github.io/forest-carbon-cycle-dynamics/)
+
 ### 1. 下载 (Download)
 访问 [Releases 页面](https://github.com/HarmonyChen110/forest-carbon-cycle-dynamics/releases) 下载最新版本的压缩包 (`ForestCarbonSim-Portable.zip`)。
 
