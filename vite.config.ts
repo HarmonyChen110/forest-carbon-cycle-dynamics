@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   // Determine base path: use repo name for GitHub Pages, relative path for Electron/local
-  const base = mode === 'production' && process.env.GITHUB_PAGES === 'true' 
-    ? '/forest-carbon-cycle-dynamics/' 
+  const base = mode === 'production' && process.env.GITHUB_PAGES === 'true'
+    ? '/forest-carbon-cycle-dynamics/'
     : './';
 
   return {
