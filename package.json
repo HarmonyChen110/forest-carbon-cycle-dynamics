@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "main": "electron/main.js",
-  "description": "Forest Carbon Cycle Dynamics Simulation",
+  "description": "基于系统动力学的森林碳循环动态模拟系统 | Forest Carbon Cycle Dynamic Simulation System",
   "author": "Harmony Chen",
   "license": "CC-BY-NC-4.0",
   "scripts": {
