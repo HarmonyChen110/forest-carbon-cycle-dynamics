@@ -5,7 +5,8 @@
   "type": "module",
   "main": "electron/main.js",
   "description": "Forest Carbon Cycle Dynamics Simulation",
-  "author": "User",
+  "author": "Harmony Chen",
+  "license": "CC-BY-NC-4.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

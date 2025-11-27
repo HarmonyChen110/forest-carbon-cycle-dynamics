@@ -1,6 +1,8 @@
 # 森林碳循环动态模拟系统：理论基础、设计实现与应用分析
 # Forest Carbon Cycle Dynamic Simulation System: Theory, Implementation, and Application
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 **摘要 (Abstract)**
 
 在全球气候变化背景下，准确评估森林生态系统的碳汇功能对于制定气候缓解策略至关重要。本文详细阐述了一款基于系统动力学（System Dynamics）原理的森林碳循环动态模拟系统的设计与实现。该系统采用现代 Web 技术栈（React + TypeScript）构建，集成了数值积分求解器与交互式可视化引擎。通过耦合光合作用、呼吸作用及土壤碳周转过程，系统能够定量模拟不同气候情景（如升温、干旱）对森林碳收支的长期影响。本文将从理论模型、数学表征、核心算法、系统架构及模拟结果五个维度进行深入剖析。
@@ -188,3 +190,17 @@ $$
 本文介绍的森林碳循环动态模拟系统，通过集成系统动力学方法与现代 Web 技术，实现了一个可交互的虚拟生态实验室。模拟结果强调了温度升高对森林碳汇功能的双重影响：一方面延长生长季可能促进光合作用，另一方面指数级增长的呼吸消耗可能抵消固碳收益。本系统为森林管理者制定适应性管理措施提供了定量的科学依据。
 
 ---
+
+## 6. 许可协议 (License)
+
+本项目采用 **[Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 进行许可。
+
+这意味着您可以：
+*   **共享** — 在任何媒介或格式下复制和分发本素材。
+*   **改编** — 基于本素材进行修改、转换或构建。
+
+但在遵守以下条件的前提下：
+*   **署名 (Attribution)** — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。
+*   **非商业性使用 (NonCommercial)** — 您不得将本素材用于商业目的。
+
+如需商业使用授权，请联系作者。
